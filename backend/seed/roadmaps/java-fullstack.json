@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "name": "Java Full Stack Developer Roadmap",
+    "description": "Discipline-first execution plan for becoming a Java full stack developer.",
+    "durationWeeks": 36,
+    "difficulty": "Intermediate",
+    "category": "Java Full Stack"
+  },
+  "dailyRules": {
+    "minDSAProblems": 2,
+    "mandatoryStudyHours": 2,
+    "mandatoryNotes": true
+  },
+  "phases": [
+    {
+      "id": "phase-1",
+      "title": "Java Fundamentals",
+      "description": "Build a strong base in Java syntax and core language features.",
+      "order": 1,
+      "weeks": [
+        {
+          "phaseId": "phase-1",
+          "weekNumber": 1,
+          "goals": ["Understand Java syntax", "Practice control flow", "Master OOP basics"],
+          "topics": [
+            { "name": "Java syntax", "category": "Java" },
+            { "name": "Control flow", "category": "Java" },
+            { "name": "OOP concepts", "category": "Java" },
+            { "name": "Exception handling", "category": "Java" },
+            { "name": "Collections basics", "category": "Java" }
+          ]
+        }
+      ],
+      "buildTasks": ["Implement a CLI utility with OOP patterns"],
+      "projects": []
+    },
+    {
+      "id": "phase-2",
+      "title": "Core Java & Internals",
+      "description": "Deepen knowledge of the JVM and concurrency fundamentals.",
+      "order": 2,
+      "weeks": [
+        {
+          "phaseId": "phase-2",
+          "weekNumber": 2,
+          "goals": ["Understand JVM components", "Practice threading"],
+          "topics": [
+            { "name": "JVM, JRE, JDK", "category": "Java" },
+            { "name": "Memory management", "category": "Java" },
+            { "name": "Garbage collection", "category": "Java" },
+            { "name": "Multithreading", "category": "Java" },
+            { "name": "Concurrency basics", "category": "Java" }
+          ]
+        }
+      ],
+      "buildTasks": ["Build a multithreaded file processor"],
+      "projects": []
+    },
+    {
+      "id": "phase-3",
+      "title": "Data Structures & Algorithms (Java)",
+      "description": "Daily DSA discipline using Java implementations.",
+      "order": 3,
+      "weeks": [
+        {
+          "phaseId": "phase-3",
+          "weekNumber": 3,
+          "goals": ["Solve DSA problems daily", "Learn core patterns"],
+          "topics": [
+            { "name": "Arrays, Strings", "category": "DSA" },
+            { "name": "Linked Lists", "category": "DSA" },
+            { "name": "Stack, Queue", "category": "DSA" },
+            { "name": "HashMap", "category": "DSA" },
+            { "name": "Trees", "category": "DSA" },
+            { "name": "Graphs", "category": "DSA" },
+            { "name": "Sliding window", "category": "DSA" },
+            { "name": "Two pointers", "category": "DSA" },
+            { "name": "Recursion", "category": "DSA" },
+            { "name": "Binary search", "category": "DSA" }
+          ]
+        }
+      ],
+      "buildTasks": ["Maintain a DSA practice tracker"],
+      "projects": []
+    },
+    {
+      "id": "phase-4",
+      "title": "Databases & SQL",
+      "description": "Master relational database fundamentals and performance tuning.",
+      "order": 4,
+      "weeks": [
+        {
+          "phaseId": "phase-4",
+          "weekNumber": 4,
+          "goals": ["Write complex SQL", "Understand JDBC integration"],
+          "topics": [
+            { "name": "SQL basics", "category": "SQL" },
+            { "name": "Joins", "category": "SQL" },
+            { "name": "Indexing", "category": "SQL" },
+            { "name": "Transactions", "category": "SQL" },
+            { "name": "JDBC", "category": "Java" },
+            { "name": "Query optimization", "category": "SQL" }
+          ]
+        }
+      ],
+      "buildTasks": ["Model a normalized schema and run migrations"],
+      "projects": []
+    },
+    {
+      "id": "phase-5",
+      "title": "Spring Boot Backend",
+      "description": "Build production-grade APIs with Spring Boot.",
+      "order": 5,
+      "weeks": [
+        {
+          "phaseId": "phase-5",
+          "weekNumber": 5,
+          "goals": ["Build REST APIs", "Secure endpoints"],
+          "topics": [
+            { "name": "Spring Core", "category": "Spring" },
+            { "name": "Dependency Injection", "category": "Spring" },
+            { "name": "Spring Boot", "category": "Spring" },
+            { "name": "REST APIs", "category": "Spring" },
+            { "name": "JPA / Hibernate", "category": "Spring" },
+            { "name": "Exception handling", "category": "Spring" },
+            { "name": "Validation", "category": "Spring" },
+            { "name": "Security basics", "category": "Spring" }
+          ]
+        }
+      ],
+      "buildTasks": ["Ship a secured CRUD service"],
+      "projects": []
+    },
+    {
+      "id": "phase-6",
+      "title": "Developer Tools",
+      "description": "Professional tooling for delivery and automation.",
+      "order": 6,
+      "weeks": [
+        {
+          "phaseId": "phase-6",
+          "weekNumber": 6,
+          "goals": ["Automate builds", "Learn container basics"],
+          "topics": [
+            { "name": "Git & GitHub", "category": "Tools" },
+            { "name": "Maven / Gradle", "category": "Tools" },
+            { "name": "Postman", "category": "Tools" },
+            { "name": "Docker basics", "category": "Tools" }
+          ]
+        }
+      ],
+      "buildTasks": ["Containerize a Spring Boot API"],
+      "projects": []
+    },
+    {
+      "id": "phase-7",
+      "title": "System Design Basics",
+      "description": "Understand fundamentals of scalable backend systems.",
+      "order": 7,
+      "weeks": [
+        {
+          "phaseId": "phase-7",
+          "weekNumber": 7,
+          "goals": ["Draw system design diagrams", "Explain trade-offs"],
+          "topics": [
+            { "name": "REST architecture", "category": "System Design" },
+            { "name": "Scalability basics", "category": "System Design" },
+            { "name": "Caching", "category": "System Design" },
+            { "name": "Database vs cache", "category": "System Design" },
+            { "name": "Request lifecycle", "category": "System Design" }
+          ]
+        }
+      ],
+      "buildTasks": ["Design a high-level architecture for an API"],
+      "projects": []
+    },
+    {
+      "id": "phase-8",
+      "title": "Projects (Mandatory)",
+      "description": "Complete mandatory Spring Boot projects with deployment.",
+      "order": 8,
+      "weeks": [
+        {
+          "phaseId": "phase-8",
+          "weekNumber": 8,
+          "goals": ["Deliver production-ready services"],
+          "topics": [
+            { "name": "Project execution", "category": "Projects" }
+          ]
+        }
+      ],
+      "buildTasks": ["Deploy each project with CI/CD"],
+      "projects": [
+        {
+          "title": "User Management System",
+          "description": "Authentication, roles, profiles, and admin features.",
+          "techStack": ["Spring Boot", "REST APIs", "Database"],
+          "requiresDeployment": true
+        },
+        {
+          "title": "E-commerce Backend",
+          "description": "Catalog, cart, orders, and inventory management.",
+          "techStack": ["Spring Boot", "REST APIs", "Database"],
+          "requiresDeployment": true
+        },
+        {
+          "title": "Wallet / Payment Service",
+          "description": "Ledger, transactions, and fraud checks.",
+          "techStack": ["Spring Boot", "REST APIs", "Database"],
+          "requiresDeployment": true
+        },
+        {
+          "title": "Notification Service",
+          "description": "Email/SMS/push notification orchestration.",
+          "techStack": ["Spring Boot", "REST APIs", "Database"],
+          "requiresDeployment": true
+        }
+      ]
+    },
+    {
+      "id": "phase-9",
+      "title": "Interview Preparation",
+      "description": "Sharpen core knowledge and communication.",
+      "order": 9,
+      "weeks": [
+        {
+          "phaseId": "phase-9",
+          "weekNumber": 9,
+          "goals": ["Explain solutions clearly", "Review internals"],
+          "topics": [
+            { "name": "Java internals", "category": "Java" },
+            { "name": "DSA patterns", "category": "DSA" },
+            { "name": "System design basics", "category": "System Design" },
+            { "name": "Explaining solutions", "category": "Interview" }
+          ]
+        }
+      ],
+      "buildTasks": ["Run mock interviews weekly"],
+      "projects": []
+    }
+  ]
+}
